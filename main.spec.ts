@@ -2,6 +2,8 @@
 // Sample outputs
 //
 
+import { printScore, decideGameWinner, updateGameScore } from "./main"
+
 
 describe('Player 1', () => {
   it('should win the game when the score is 4-0', () => {
